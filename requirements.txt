@@ -1,0 +1,6 @@
+## Jupyter Extensions 설치 및 활성화
+## 1. jupyter 필요없는 파일 숨기기
+jupyter_contrib_nbextensions
+## 설치방법
+pip install jupyter_contrib_nbextensions
+jupyter contrib nbextension install --user
