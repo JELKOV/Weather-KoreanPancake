@@ -1,6 +1,13 @@
-## Jupyter Extensions 설치 및 활성화
-## 1. jupyter 필요없는 파일 숨기기
-jupyter_contrib_nbextensions
-## 설치방법
-pip install jupyter_contrib_nbextensions
-jupyter contrib nbextension install --user
+# 데이터 처리를 위한 라이브러리
+pandas>=2.2.3
+
+# 데이터 시각화를 위한 라이브러리
+matplotlib>=3.9.2
+
+# 데이터 병합 및 경로 관리
+numpy>=2.1.3
+
+# Jupyter Notebook에서 실행을 위한 패키지 (옵션)
+notebook>=7.2.2
+
+# pip install -r requirements.txt (terminal 명령어)
